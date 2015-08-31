@@ -2,7 +2,7 @@
 
 title: SSC's MOOC
 email: your-email@domain.com
-baseurl: ""
+baseurl: "/mooc"
 
 permalink: /course/:name/
 

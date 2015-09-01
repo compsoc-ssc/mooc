@@ -2,15 +2,9 @@
 
 title: SSC's MOOC
 email: your-email@domain.com
-baseurl: "/mooc"
+baseurl: /mooc
 
-permalink: /course/:name/
+permalink: /course/:title/
 
-courses:
-- {name: Mathematics, url: 'mathematics', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi voluptates, nemo enim harum saepe maxime quis vitae odit quo autem illo, suscipit corporis quibusdam incidunt nostrum. Delectus, animi fugiat adipisci?'}
-- {name: Phyisics, url: 'physics', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi voluptates, nemo enim harum saepe maxime quis vitae odit quo autem illo, suscipit corporis quibusdam incidunt nostrum. Delectus, animi fugiat adipisci?'}
-- {name: Chemistry, url: 'chemistry', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi voluptates, nemo enim harum saepe maxime quis vitae odit quo autem illo, suscipit corporis quibusdam incidunt nostrum. Delectus, animi fugiat adipisci?'}
-- {name: English, url: 'english', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi voluptates, nemo enim harum saepe maxime quis vitae odit quo autem illo, suscipit corporis quibusdam incidunt nostrum. Delectus, animi fugiat adipisci?'}
-- {name: Economics, url: 'economics', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi voluptates, nemo enim harum saepe maxime quis vitae odit quo autem illo, suscipit corporis quibusdam incidunt nostrum. Delectus, animi fugiat adipisci?'}
-- {name: Philosophy, url: 'philosophy', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi voluptates, nemo enim harum saepe maxime quis vitae odit quo autem illo, suscipit corporis quibusdam incidunt nostrum. Delectus, animi fugiat adipisci?'}
-- {name: Political Science, url: 'pol-science', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi voluptates, nemo enim harum saepe maxime quis vitae odit quo autem illo, suscipit corporis quibusdam incidunt nostrum. Delectus, animi fugiat adipisci?'}
+sass:
+  style: compressed

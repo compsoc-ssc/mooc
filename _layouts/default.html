@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html>
-  {% include head.html %}
-  <body>
-    <div class="container">
-      {% include header.html %}
-      <div class="content">
-        {{ content }}
-      </div>
+{% include head.html %}
+<body>
+  <div class="container">
+    {% include header.html %}
+    <div class="content">
+      {{ content }}
     </div>
-  </body>
+  </div>
+  <script>
+    var link = document.getElementsByClassName("here");
+    link.onclick = function(e) {
+      e.preventDefault();
+      alert('This will redirect to the respective YouTube channel.')
+    };
+  </script>
+</body>
 </html>

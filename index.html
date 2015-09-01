@@ -7,7 +7,7 @@ layout: default
 <p>The following are the subjects we currently offer:</p>
 
 <ul class="courses">
-  {% for course in site.courses %}
-    <a href="/course/{{ course.url }}"><li>{{ course.name }}</li></a>
+  {% for course in site.posts %}
+    <a href="{{ course.url }}"><li>{{ course.title }}</li></a>
   {% endfor %}
 </ul>

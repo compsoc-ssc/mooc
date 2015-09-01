@@ -8,6 +8,6 @@ layout: default
 
 <ul class="courses">
   {% for course in site.posts %}
-    <a href="{{ course.url }}"><li>{{ course.title }}</li></a>
+    <a href="{{ site.baseurl }}{{ course.url }}"><li>{{ course.title }}</li></a>
   {% endfor %}
 </ul>
